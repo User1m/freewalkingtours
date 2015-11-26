@@ -1,0 +1,44 @@
+<ion-view view-title="Cities">
+<ion-content>
+<div class="list">
+
+	<!-- USA -->
+	<div class="item item-divider">
+		USA
+	</div>
+	<a class="item item-icon-right" href="#/app/cities/{{city.id}}" ng-repeat="city in cities.usa">
+		{{city.title}}
+		<button ng-click="fav()" class="icon ion-ios-heart-outline button-clear"></button>
+	</a>
+
+	<!-- EUROPE -->
+	<div class="item item-divider">
+		Europe
+	</div>
+	<a class="item item-icon-right" href="#/app/cities/{{city.id}}" ng-repeat="city in cities.europe">
+		{{city.title}}
+		<button ng-click="fav()" class="icon ion-ios-heart-outline button-clear"></button>
+	</a>
+
+	<!-- ASIA -->
+	<div class="item item-divider">
+		Asia
+	</div>
+	<a class="item item-icon-right" href="#/app/cities/{{city.id}}" ng-repeat="city in cities.asia">
+		{{city.title}}
+		<button ng-click="fav()" class="icon ion-ios-heart-outline button-clear"></button>
+	</a>
+
+	<!-- AUSTRAILIA -->
+	<div class="item item-divider">
+		Austrailia
+	</div>
+	<a class="item item-icon-right" href="#/app/cities/{{city.id}}" ng-repeat="city in cities.austrailia">
+		{{city.title}}
+		<button ng-click="fav()" class="icon ion-ios-heart-outline button-clear"></button>
+	</a>
+
+
+</div>
+</ion-content>
+</ion-view>

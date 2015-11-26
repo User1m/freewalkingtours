@@ -1,0 +1,59 @@
+/* Empty. Add your own CSS if you like */
+
+
+/*SIDE MENU*/
+.side, .side ion-list ion-item{
+	background-color: blue;
+}
+
+/*HOME*/
+
+.home{
+
+}
+
+/*LOCATIONS*/
+
+.locations {
+
+}
+
+
+/*FAVS*/
+
+.favs{
+
+
+}
+
+
+/*BOOKINGS*/
+
+
+
+
+
+/*SETTINGS*/
+
+
+
+
+/*ABOUT*/
+
+.about {
+	text-align: center;
+
+}
+
+
+/*SHARE*/
+
+
+
+
+/*LOGIN*/
+
+
+
+
+/*LOGOUT*/
