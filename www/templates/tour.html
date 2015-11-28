@@ -1,0 +1,92 @@
+<ion-view view-title="{{data.name}}">
+
+<a href="{{data.booking_url}}" class=" bar bar-subheader bar-balanced">Book Here</a>
+
+
+<ion-content class="padding has-subheader">
+
+<div class="list card">
+
+	<div class="item">
+		
+	</div>
+
+	<div class="item item-avatar">
+		<img ng-src="{{data.pictures.small[0]}}">
+		<h2>{{data.name}}</h2>
+		<p>{{data.company}}</p>
+	</div>
+
+	<div class="item item-image">
+		<img src="{{data.pictures.large[4]}}">
+	</div>
+
+	<div class="item">
+		<img src="img/map.png" alt="temp map">
+	</div>
+
+	<div class="item item-icon-left item-icon-right icon-wrapper item-avatar">
+		<i class="icon ion-ios-telephone">Call</i> 
+		<i class="icon ion-navigate">Directions</i> 
+	</div>
+
+	<div class="item">
+		<p><b>Tour Dates</b>: {{data.dates}}</p>
+	</div>
+
+	<div class="item">
+		<p><b>Tour Times</b>: {{data.times}}</p>
+	</div>
+
+	<div class="item">
+		<p><b>Duration</b>: {{data.duration}}</p>
+	</div>
+
+	<div class="item">
+		<p><b>Rating</b>: {{data.rating}}</p>
+	</div>
+
+	<div class="item">
+		<p><b>Start Point</b>: {{data.start.text}}</p>
+	</div>
+
+	<div class="item">
+		<p><b>Language</b>: {{data.lang}}</p>
+	</div>
+
+	<div class="item item-body">
+		<h2>Synopsis</h2>
+
+		<p>
+			{{data.summary}}
+		</p>
+
+		<h3>Highlights</h3>
+		<ul ng-repeat='site in data.highlights' class='highlights'>
+			<li>{{site}}</li>
+		</ul>
+		<p>
+			<a href="#" class="subdued">1 Like</a>
+			<a href="#" class="subdued">5 Comments</a>
+		</p>
+	</div>
+
+	<div class="item tabs tabs-secondary tabs-icon-left">
+		<a class="tab-item" href="#">
+			<i class="icon ion-thumbsup"></i>
+			Like
+		</a>
+		<a class="tab-item" href="#">
+			<i class="icon ion-chatbox"></i>
+			Comment
+		</a>
+		<a class="tab-item" href="#">
+			<i class="icon ion-share"></i>
+			Share
+		</a>
+	</div>
+
+</div>
+
+</ion-content>
+</ion-view>

@@ -1,11 +1,14 @@
 {
 	"copenhagen":{
 		"location" : "Copenhagen, Denmark"
-		,"sandemans new europe: copenhagen": [
+		,"tours" : [
 		{
-			"name": "Free Tour of Copenhagen"
+			"id": 1
+			,"company": "sandemans new europe: copenhagen"
+			,"name": "Free Tour of Copenhagen"
 			,"summary" : "For hundreds of years the Danes were an unstoppable force of warriors, explorers and settlers – uniting Scandinavia, discovering America and bringing terror to the shores of Europe. Today Copenhagen’s history of fire and bloody battles lies hidden behind picturesque streets and colorful harbors.As the days of conquest passed, Danish power was replaced with a rich cultural legacy of writers, artists and philosophers. The fairytale feel of the city where Hans Christian Andersen wrote is the home of incredible stories and unbelievably true histories: Viking adventurers; pirate-hunting Bishop Absalon; daring Danish WWII resistance fighters and more. Our local expert guides will take you on a 2.5 hour walking tour through 6000 years of Copenhagen’s history and you’ll find out why the Danes are some of the happiest people in the world!"
-			,"highlights" : "Copenhagen Town Hall, Tivoli Gardens, Danish Royal Palace, The Marble Church, Picturesque Nyhavn harbour, Hans Christian Andersen, Absalon – Warrior Bishop, Nazi Occupation, WWII Resistance, World’s oldest royal family, Strøget shopping mile, Nytorv, Gammeltorv, Kongens Nytorv, Danish Parliament, The Royal Danish Theater, Copenhagen Opera House, ...and much more!"
+			,"highlights" : [ "Copenhagen Town Hall", "Tivoli Gardens", "Danish Royal Palace", "The Marble Church", "Picturesque Nyhavn harbour", "Hans Christian Andersen", "Absalon – Warrior Bishop", "Nazi Occupation"," WWII Resistance, World’s oldest royal family", "Strøget shopping mile", "Nytorv", "Gammeltorv", "Kongens Nytorv", "Danish Parliament", "The Royal Danish Theater", "Copenhagen Opera House", "...and much more!"
+			]
 			,"duration" : "2.5 hours"
 			,"rating" : "4.5"
 			,"start" : {
@@ -15,6 +18,7 @@
 					,"lng":"12.56881"
 				}
 			}
+			,"dates" : "Rain, Sleet, or Snow. Our tours run every day!"
 			,"times" : "11:00 & 14:00"
 			,"booking_url": "http://www.newcopenhagentours.com/daily-tours/copenhagen-free-tour.html#booking-form-popup-wrapper"
 			,"lang" :  "English"
@@ -23,7 +27,7 @@
 			,"pictures": {
 				"small":[
 				"http://www.newcopenhagentours.com/public/Copenhagen/cop_tours/ft_05.117x94c.jpg"
-				,"ttp://www.newcopenhagentours.com/public/Copenhagen/cop_tours/ft_04.117x94c.jpg"
+				,"http://www.newcopenhagentours.com/public/Copenhagen/cop_tours/ft_04.117x94c.jpg"
 				,"http://www.newcopenhagentours.com/public/Copenhagen/cop_tours/ft_03.117x94c.jpg"
 				,"http://www.newcopenhagentours.com/public/Copenhagen/cop_tours/ft_02.117x94c.jpg"
 				,"http://www.newcopenhagentours.com/public/Copenhagen/cop_tours/ft_01.117x94c.jpg"
@@ -39,14 +43,15 @@
 				},
 				"social_media": {
 					"facebook": "http://www.facebook.com/sandemansneweurope",
-					"twitter": "https://twitter.com/#!/neweuropetours"
+					"twitter": "https://twitter.com/#!/neweuropetours",
+					"tripadvisor" : "http://tripadvisor.com"
 				}
 				,"comments": [
 				"Well-informed and sharp-witted guides who provide lively commentary and are eager to answer your questions."
 				,"Radical and unique."
 				]
-
 			}
+
 			]
 		}
 	}

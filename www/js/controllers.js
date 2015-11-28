@@ -1,4 +1,4 @@
-angular.module('starter.controllers', [])
+angular.module('fwt.controllers', [])
 
 .controller('AppCtrl', function($scope, $ionicModal, $timeout) {
 
@@ -58,10 +58,26 @@ angular.module('starter.controllers', [])
     }, 1000);
   };
 })
-.controller('CityCtrl', function($scope, $stateParams) {
-  $scope.city = {
-    name : $stateParams.id
-  }
+.controller('TourCtrl', function($scope, $http, $stateParams){
+
+  $scope.id ='copenhagen';
+
+  $http.get('js/test_data.json').success(function(data){
+        // console.log(data);
+        $scope.data = data['copenhagen'].tours[0];
+        // console.log($scope.data);
+      });
+
+})
+.controller('ToursCtrl', function($scope, $stateParams, fwtFactory, $http) {
+
+  $http.get('js/test_data.json').success(function(data){
+        // console.log(data);
+        $scope.data = data;
+        // console.log($scope.data);
+      });
+
+  $scope.id = $stateParams.id; 
 })
 .controller('CitiesCtrl', function($scope) {
   $scope.cities = {
